@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(31, 40, 41);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+/* div {
+  border: 1px white solid;
+} */
+
+.title {
+  font-size: 72px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.padding {
+  margin: 200px auto;
+}
+
+.contents {
+  margin: 0 auto;
+  display: grid;
+  max-width: 60%;
+}
+
+.summary {
+  margin: 0 auto;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 350px 20px auto;
+}
+
+.projects {
+  display: grid;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 100%;
+}
+
+.separator {
+  margin: 30px auto;
+}
+
+.footer {
+  display: grid;
+}
+
+.logo {
+  display: grid;
+  height: 50px;
+  width: 50px;
+}
+
+.li-logo {
+  display: grid;
+  height: 34px;
+  width: 43px;
+}
+
+.gh-logo {
+  display: grid;
+  height: 32px;
+  width: 32px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.social {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 50px 50px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 33% auto;
+  margin: 0 auto;
+  border: 1px white solid;
+  min-width: 100%;
+}
+
+a {
+  color: white;
+}
+
+.headshot {
+  width: 350px;
+  height: auto;
+}
+
+.left {
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
