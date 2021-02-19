@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(31, 40, 41);
+  background-color: rgb(1, 15, 18);
   color: white;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
@@ -14,7 +14,7 @@ body {
 } */
 
 .title {
-  font-size: 72px;
+  font-size: 60px;
   margin: 0 auto;
   text-align: center;
 }
@@ -109,13 +109,16 @@ a {
 
 .header {
   display: grid;
-  grid-template-columns: 125px 125px;
+  grid-template-columns: auto 125px 125px;
   padding: 20px 0 0 0;
-  margin: 0 0 0 auto;
   text-align: center;
 }
 
 .navbar {
-  font-weight: 500;
   text-decoration: none;
+}
+
+.nameplate {
+  text-align: left;
+  margin: 0 0 0 30px;
 }
